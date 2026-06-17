@@ -1,0 +1,42 @@
+## Build outputs
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+
+## IDE and user settings
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pydevproject
+.metadata/
+.recommenders/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+## Caches and logs
+*.log
+*.cache
+*.tlog
+ipch/
+$Recycle.Bin/
+
+## OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
+
+## Resharper/Rider
+_ReSharper*/
+*.DotSettings.user
+CompileAll.html
+
+## Local packages
+packages/
+
+## Release executable (distributed via GitHub Releases, not committed)
+Klik.exe

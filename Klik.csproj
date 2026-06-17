@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon Condition="Exists('klik.ico')">klik.ico</ApplicationIcon>
+    <AssemblyName>Klik</AssemblyName>
+    <RootNamespace>Klik</RootNamespace>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>Klik</Company>
+    <Product>Klik</Product>
+    <Description>Never 'Hello' a developer</Description>
+    <!-- Publish & Standalone Compression Settings -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <PublishReadyToRun>true</PublishReadyToRun>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.*" />
+    <PackageReference Include="H.InputSimulator" Version="1.5.0" />
+    <PackageReference Include="H.NotifyIcon.Wpf" Version="*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.*" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="klik.ico" />
+  </ItemGroup>
+</Project>

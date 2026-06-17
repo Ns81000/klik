@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Window & Layout -->
+    <SolidColorBrush x:Key="WindowBackground" Color="#1e1e1e" />
+    <SolidColorBrush x:Key="WindowForeground" Color="#ffffff" />
+    <SolidColorBrush x:Key="CardBackground" Color="#252525" />
+    <SolidColorBrush x:Key="CardBorder" Color="#353535" />
+    
+    <!-- Typography -->
+    <SolidColorBrush x:Key="TextPrimary" Color="#ffffff" />
+    <SolidColorBrush x:Key="TextSecondary" Color="#cccccc" />
+    <SolidColorBrush x:Key="TextMuted" Color="#888888" />
+    
+    <!-- Controls (Buttons) -->
+    <SolidColorBrush x:Key="ControlBackground" Color="#2d2d2d" />
+    <SolidColorBrush x:Key="ControlForeground" Color="#ffffff" />
+    <SolidColorBrush x:Key="ControlBorder" Color="#3d3d3d" />
+    <SolidColorBrush x:Key="ControlHoverBackground" Color="#3d3d3d" />
+    <SolidColorBrush x:Key="ControlHoverBorder" Color="#4d4d4d" />
+    <SolidColorBrush x:Key="ControlPressedBackground" Color="#252525" />
+    <SolidColorBrush x:Key="ControlPressedBorder" Color="#333333" />
+    <SolidColorBrush x:Key="ControlDisabledBackground" Color="#1a1a1a" />
+    <SolidColorBrush x:Key="ControlDisabledBorder" Color="#252525" />
+    <SolidColorBrush x:Key="ControlDisabledForeground" Color="#666666" />
+
+    <!-- Accent Buttons / UI -->
+    <SolidColorBrush x:Key="AccentBackground" Color="#0078d4" />
+    <SolidColorBrush x:Key="AccentForeground" Color="#ffffff" />
+    <SolidColorBrush x:Key="AccentBorder" Color="#0086ed" />
+    <SolidColorBrush x:Key="AccentHoverBackground" Color="#1085e0" />
+    <SolidColorBrush x:Key="AccentHoverBorder" Color="#2496f0" />
+    <SolidColorBrush x:Key="AccentPressedBackground" Color="#006cc0" />
+    <SolidColorBrush x:Key="AccentDisabledBackground" Color="#152b3c" />
+    <SolidColorBrush x:Key="AccentDisabledBorder" Color="#1c374d" />
+    <SolidColorBrush x:Key="AccentDisabledForeground" Color="#7799b6" />
+
+    <!-- Inputs (TextBox, ComboBox, ListView) -->
+    <SolidColorBrush x:Key="InputBackground" Color="#252525" />
+    <SolidColorBrush x:Key="InputForeground" Color="#ffffff" />
+    <SolidColorBrush x:Key="InputBorder" Color="#353535" />
+    <SolidColorBrush x:Key="InputHoverBorder" Color="#454545" />
+    <SolidColorBrush x:Key="InputFocusedBorder" Color="#0078d4" />
+    
+    <!-- Warnings & Errors -->
+    <SolidColorBrush x:Key="ErrorForeground" Color="#c42b1c" />
+    <SolidColorBrush x:Key="WarningBackground" Color="#3a2e10" />
+    <SolidColorBrush x:Key="WarningBorder" Color="#5a4c20" />
+    <SolidColorBrush x:Key="WarningForeground" Color="#ffb900" />
+</ResourceDictionary>
