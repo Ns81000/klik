@@ -10,10 +10,10 @@
 
 <br/>
 
-[![Platform](https://img.shields.io/badge/Windows_10_%2F_11-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com)
-[![Framework](https://img.shields.io/badge/.NET_9_WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com)
-[![Version](https://img.shields.io/badge/v1.0.0-107C10?style=for-the-badge)](https://github.com)
-[![Design](https://img.shields.io/badge/Fluent_UI-0078D4?style=for-the-badge)](https://github.com)
+[![Platform](https://img.shields.io/badge/Windows_10_%2F_11-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Ns81000/klik)
+[![Framework](https://img.shields.io/badge/.NET_9_WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/Ns81000/klik)
+[![Version](https://img.shields.io/badge/v1.0.0-107C10?style=for-the-badge)](https://github.com/Ns81000/klik/releases/tag/v1.0.0)
+[![Design](https://img.shields.io/badge/Fluent_UI-0078D4?style=for-the-badge)](https://ns81000.github.io/klik/)
 
 </div>
 
@@ -69,7 +69,7 @@ Klik is a lightweight Windows desktop utility that automates repeated text input
 
 ```bash
 # Clone and build
-git clone https://github.com/your-username/klik.git
+git clone https://github.com/Ns81000/klik.git
 cd klik
 dotnet build
 
